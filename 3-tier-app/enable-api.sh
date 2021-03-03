@@ -1,0 +1,1 @@
+gcloud services enable cloudresourcemanager.googleapis.com cloudbuild.googleapis.com logging.googleapis.com compute.googleapis.com iam.googleapis.com iamcredentials.googleapis.com container.googleapis.com   

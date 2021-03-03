@@ -1,0 +1,8 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: 'sh'
+  args: 
+  - '-c'
+  - |
+      gcloud container clusters delete "tech-challange-cluster" --zone "europe-west2-a" --quiet
+timeout: '1200s'
